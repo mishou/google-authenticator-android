@@ -71,6 +71,11 @@ public class MarketBuildOptionalFeatures implements OptionalFeatures {
 
   @Override
   public void onAuthenticatorActivityAddAccount(AuthenticatorActivity activity) {
-    activity.startActivity(new Intent(activity, AddOtherAccountActivity.class));
+    // MI: We skip the addotheraccount activity for now, since we don't have QR scan option for now
+    // Instead, we open the enterkey activity directly
+    //activity.startActivity(new Intent(activity, AddOtherAccountActivity.class));
+    Intent intent = new Intent(Intent.ACTION_VIEW);
+    intent.setClass(activity, EnterKeyActivity.class);
+    activity.startActivity(intent);
   }
 }
