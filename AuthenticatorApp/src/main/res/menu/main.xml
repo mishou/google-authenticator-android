@@ -23,7 +23,8 @@
         <item
             android:id="@+id/how_it_works"
             android:icon="@android:drawable/ic_menu_help"
-            android:title="@string/how_it_works_menu_item" />
+            android:title="@string/how_it_works_menu_item"
+            android:visible="false"/>
         <item
             android:id="@+id/settings"
             android:icon="@android:drawable/ic_menu_preferences"
