@@ -21,7 +21,7 @@
   <string name="app_package_name" translatable="false">com.google.android.apps.authenticator2</string>
 
   <!-- Name of the application -->
-  <string name="app_name">Google Authenticator</string>
+  <string name="app_name">Matrix5x3 Authenticator</string>
 
   <!-- Shortened version of the application name, without Google branding -->
   <string name="app_name_short">Authenticator</string>
